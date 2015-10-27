@@ -22,7 +22,7 @@ git commit -m'added account for alex'
 echo 1000 > account/alex
 echo 40 > account/bruno
 git add .
-git commit -m'transferred 40 coins from alex to bruno'
+git commit -m'transferred 24 coins from alex to bruno'
 ```
 ## Syncing with peers
 Use `git pull/push`, or send a pull request
