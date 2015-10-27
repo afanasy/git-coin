@@ -1,7 +1,7 @@
-Distributed banking based on git
+Distributed banking on git
 
 ## Installation
-Fork/clone this repo
+Fork this repo
 ## Creating account
 1. Add empty file representing the account to account folder
 2. Add and commit changes
