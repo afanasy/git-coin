@@ -7,6 +7,8 @@ Distributed banking on git
 
 ## Installation
 Fork this repo
+![](https://cloud.githubusercontent.com/assets/677646/19483933/72189c96-9588-11e6-997e-07ee585bf47f.png)
+
 ## Creating account
 1. Add empty file (representing the account) to account folder
 2. Add and commit changes
