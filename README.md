@@ -1,9 +1,14 @@
 Distributed banking on git
 
+## Features
+ - Distributed
+ - Decentralized
+ - Codeless architecture
+
 ## Installation
 Fork this repo
 ## Creating account
-1. Add empty file representing the account to account folder
+1. Add empty file (representing the account) to account folder
 2. Add and commit changes
 ```bash
 touch account/alex
@@ -26,9 +31,10 @@ git commit -m'transferred 24 coins from alex to bruno'
 ```
 ## Syncing with peers
 Use `git pull/push`, or send a pull request
-## Account file format
+## Advanced
+### Account file format
 Each file represents one account and contains amount of git coins on this account
-## Validation
+### Validation
 Sum of all git coins from all accounts is 9007199254740991
 ```bash
 echo $(($(cat account/* | tr '\n' '+') - 9007199254740991))
